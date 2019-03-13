@@ -1,6 +1,6 @@
 # Spoonify
 
-Javascript tutorial project
+Project using modern JavaScript.
 
 ### Prerequisites
 

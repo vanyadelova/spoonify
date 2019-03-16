@@ -1,55 +1,22 @@
-# Spoonify
+# Forkify
 
-Project using modern JavaScript.
+## Recipe Web App
 
-### Prerequisites
+This web app has been coded using modern JavaScript feautures: ES6, Webpack, npm, babel, etc.
 
-Spoonify requires Node.js to run its dependencies.
+You can search over than a million recipes of any ingredients that have on your brain. The app displays you a bunch of recipes related to your search. When you select a recipe, the app shows you the ingredients that you need to prepare it.
+You can like and storage your favorites recipes and add the ingredients to your shopping list.
 
-### Installing
+Data fetched from [Food2fork API](https://food2fork.com/about/api)
 
-Install the dependencies and devDependencies and start the server.
+This project is totally adaptative and responsive thanks to **CSS Grid** layouts.
 
-```
-$ npm install
-```
-
-## Deployment
-
-Work in progress
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Scripts
-
-Spoonify utilizes Webpack to compile its files
-
-### Run webpack in development mode:
-
-```
-$ npm run dev
-```
-
-### Run webpack in production  mode:
-```
-$ npm run build
-```
-
-### Run webpack-dev-server:
-```
-$ npm run watch
-```
-## Authors
-
-* **Vanya Delova** 
-
-## License
-   MIT 
+![alt text](http://i64.tinypic.com/k3lj7l.png "UI Forkify")
 
 
+This project has been design by **Jonas Schmedtmann**. Coded & modified by **JOTAGEP**(Jorge G. Palacin)
+
+---
+### Enjoy this repo. Thanks for everything 👍
 
 

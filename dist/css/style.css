@@ -121,11 +121,6 @@ body {
   .btn-tiny:not(:last-child) {
     margin-right: .3rem; }
 
-.btn-clear {
-  margin-top: 2rem;
-  justify-content: center;
-}
-
 .heading-2 {
   font-size: 1.8rem;
   font-weight: 600;

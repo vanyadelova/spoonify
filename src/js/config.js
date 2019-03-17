@@ -1,4 +1,3 @@
-export const proxy = 'https://cors-anywhere.herokuapp.com/';
-export const url_search = 'http://food2fork.com/api/search';
-export const url_get = 'http://food2fork.com/api/get';
-export const key = '5fd55b334f36e157a895f66ba4550db0';
+export const proxy = "https://cors-anywhere.herokuapp.com/";
+export const key = "da07beb1527fc5a305ed0862c19cc2d1";
+export const url = "http://food2fork.com/api/";

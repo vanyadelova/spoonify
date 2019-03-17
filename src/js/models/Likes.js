@@ -3,40 +3,45 @@ export default class Likes {
         this.likes = [];
     }
 
-    addLike (recipe) {
+    addLike(id, title, author, img) {
         const like = {
-            id: recipe.id,
-            title: recipe.title,
-            author: recipe.author,
-            img: recipe.img
+            id,
+            title,
+            author,
+            img
         };
-
         this.likes.push(like);
 
+        // persist data to localstorage
         this.persistData();
+
         return like;
     }
 
-    deleteLike (id) {
-        this.likes.splice(this.likes.findIndex(el => el.id === id), 1);
+    deleteLike(id) {
+        const index = this.likes.findIndex(el => el.id === id);
+        this.likes.splice(index, 1);
+
+        // persist data to local storage
         this.persistData();
+
     }
 
-    isLiked (id) {
+    isLiked(id) {
         return this.likes.findIndex(el => el.id === id) !== -1;
     }
-
-    getNumLikes () {
+    likesCount(id) {
         return this.likes.length;
     }
 
-    persistData () {
-        localStorage.setItem('likes', JSON.stringify(this.likes));
+    persistData() {
+        localStorage.setItem("likes", JSON.stringify(this.likes));
     }
 
-    readStorage () {
-        const storage = JSON.parse(localStorage.getItem('likes'));
+    readData() {
+        const storage = JSON.parse(localStorage.getItem("likes"));
+
+        // restore data from local storage, if there's any
         if (storage) this.likes = storage;
     }
-};
-
+}

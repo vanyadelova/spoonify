@@ -20,9 +20,10 @@ Work in progress
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Webpack](https://webpack.js.org/) 
+* [Babel](https://babeljs.io/) 
+* [ES6](https://es6.io/) 
+* [npm](https://www.npmjs.com/) 
 
 ## Scripts
 

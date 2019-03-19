@@ -4,7 +4,7 @@ Project using modern JavaScript.
 
 ### Prerequisites
 
-Spoonify requires Node.js to run its dependencies.
+Spoonify requires [Node.js](https://nodejs.org/en/) to run its dependencies.
 
 ### Installing
 

@@ -24,6 +24,7 @@ Work in progress
 * [Babel](https://babeljs.io/) 
 * [ES6](https://es6.io/) 
 * [npm](https://www.npmjs.com/) 
+* [axios](https://www.npmjs.com/package/axios)
 
 ## Scripts
 

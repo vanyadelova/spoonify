@@ -18,6 +18,12 @@ $ npm install
 
 Work in progress
 
+## Screenshot
+
+![immagine](https://user-images.githubusercontent.com/40762788/54878356-b7757800-4e2b-11e9-8fa7-a6c8cb92d46e.png)
+![Uploading Cattura.PNG…]()
+
+
 ## Built With
 
 * [Webpack](https://webpack.js.org/) 
